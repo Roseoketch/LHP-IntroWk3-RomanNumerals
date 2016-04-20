@@ -10,16 +10,16 @@ __*A website that translates numbers into Roman-numerals.*__
 Draft some input-output examples to brainstorm the behaviors that you'll want to capture in your application. Tackle them one-by-one, worrying only about the future behaviors once the current example is implemented.
 
 #### Tests:
-* 1000 | "M", 2000 | "MM", 3000 | "MMM"
-* 2500 | "MMD", 500 | "D"
-* 3800 | "MMDCCC", 1300 | "MCCC"
-* 1250 | "MCCL", 850 | "DCCCL", 50 | "L"
-* 2510 | "MMDX", 360 | "CCCLX", 20 | "XX"
-* 3505 | "MMMDV", 735 | "DCCXXXV", 8 | "VIII"
-* 1001 | "MI", 852 | "DCCCLII",
-* 
-* non-numeric input is rejected
-* 4000 gives an error
+* 5    | ""
+* 16   | ""
+* 22   | ""
+* 777  | ""
+* 333  | ""
+* 1888 | ""
+* 2444 | ""
+* 3999 | "MMMCMXCIX"
+* 4000 | error message
+* non-numeric input is rejected - error message/try again
 
 
 #### Uses:

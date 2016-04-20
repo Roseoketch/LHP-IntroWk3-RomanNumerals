@@ -17,7 +17,14 @@ function romanize(yourNumber) {
     if(yourNumber > 99) {
       placeholder=parseInt(yourNumber/100);
       yourNumber = yourNumber % 100;
-      if(placeholder>=5) {
+      if(placeholder===9) {
+        romanNumber+="CM";
+        placeholder-=9;
+      }
+      if(placeholder===4) {
+        romanNumber+="CD";
+        placeholder-=4;
+      } else if(placeholder>=5) {
         romanNumber+="D";
         placeholder-=5;
       }
@@ -28,7 +35,14 @@ function romanize(yourNumber) {
     if(yourNumber > 9) {
       placeholder=parseInt(yourNumber/10);
       yourNumber = yourNumber % 10;
-      if(placeholder>=5) {
+      if(placeholder===9) {
+        romanNumber+="XC";
+        placeholder-=9;
+      }
+      if(placeholder===4) {
+        romanNumber+="XL";
+        placeholder-=4;
+      } else if(placeholder>=5) {
         romanNumber+="L";
         placeholder-=5;
       }
@@ -37,7 +51,14 @@ function romanize(yourNumber) {
       }
     } // 1's place: 9, 5-8, 4, 1-3
     placeholder=parseInt(yourNumber);
-    if(placeholder>=5) {
+    if(placeholder===9) {
+      romanNumber+="IX";
+      placeholder-=9;
+    }
+    if(placeholder===4) {
+      romanNumber+="IV";
+      placeholder-=4;
+    } else if(placeholder>=5) {
       romanNumber+="V";
       placeholder-=5;
     }
