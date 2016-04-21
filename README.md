@@ -7,20 +7,17 @@ __Version 1: April 19, 2016__
 ### Description
 __*A website that translates numbers into Roman-numerals.*__
 
-Draft some input-output examples to brainstorm the behaviors that you'll want to capture in your application. Tackle them one-by-one, worrying only about the future behaviors once the current example is implemented.
-
 #### Tests:
-* 5    | ""
-* 16   | ""
-* 22   | ""
-* 777  | ""
-* 333  | ""
-* 1888 | ""
-* 2444 | ""
+* 5    | "V"
+* 16   | "XVI"
+* 22   | "XXII"
+* 777  | "DCCLXXVII"
+* 333  | "CCCXXXIII"
+* 1888 | "MDCCCLXXXVIII"
+* 2444 | "MMCDXLIV"
 * 3999 | "MMMCMXCIX"
 * 4000 | error message
 * non-numeric input is rejected - error message/try again
-
 
 #### Uses:
 * [Fresh Start](http://karenfreemansmith.github.io/freshstart)
