@@ -1,13 +1,26 @@
-# [Roman Numerals](http://karenfreemansmith.github.io/roman-numbers)
-![project screenshot](/img/screenshot.jpg)
+# Roman Numerals
+Version 0.0.1: April 19, 2016
+by [Karen Freeman-Smith](https://karenfreemansmith.github.io)
 
-__Version 1: April 19, 2016__
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+### Technologies Used
+HTML, CSS, Bootstrap, JavaScript, jQuery
 
-### Description
-__*A website that translates numbers into Roman-numerals.*__
+![screenshot of project running](screenshot.png)
 
-#### Tests:
+## Description
+*[Learn How To Program](http://learnhowtoprogram.com) Intro to Programming Week 3 Individual Project: A website to convert decimal numbers to roman-numbers.*
+
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/LHP-IntroWk3-RomanNumerals)
+* _OR_
+* Clone directory
+* Open index.html in your favorite browser
+
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
+
+## Specifications
+Program should have the following output:
 * 5    | "V"
 * 16   | "XVI"
 * 22   | "XXII"
@@ -18,18 +31,6 @@ __*A website that translates numbers into Roman-numerals.*__
 * 3999 | "MMMCMXCIX"
 * 4000 | error message
 * non-numeric input is rejected - error message/try again
-
-## Technologies Used
-HTML, CSS
-
-## Setup/Installation
-* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
-* _OR_
-* Clone diectory 
-* Open index.html in your favorite browser
-
-## Support & Contact
-For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
 ## Known Issues
 * None
